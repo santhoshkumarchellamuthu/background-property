@@ -1,0 +1,150 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	}
+.home{
+	width:90%;
+	margin:0 auto;
+}
+h2{
+	color:green;
+	padding:20px 0;
+}
+h3{
+	color:red;
+	font-size:20px;
+	padding:20px 0;
+}
+.color{
+	background-color:red;
+	width:100px;
+	height:100px;
+}
+.background-image{
+	padding:20px;
+}
+.image{
+	background-image:url("image.png");
+	width:100%;
+	height:250px;
+}
+.image2{
+	background-image:url("image.png"),
+					 url("image2.png");
+	width:100%;
+	height:200px;
+}
+.background-repeat{
+	padding:20px;
+}
+.background-repeat div{
+	background-image:url("image.png");
+	width:100%;
+	height:400px;
+}
+.repeat{	
+	background-repeat:repeat;
+}
+.repeat-x{
+	background-repeat:repeat-x;
+}
+.repeat-y{
+	background-repeat:repeat-y;
+}
+.space{
+	background-repeat:space;
+}
+.round{
+	background-repeat:round;
+}
+.no-repeat{
+	background-repeat:no-repeat;
+}
+.background-attachment{
+	padding:20px;
+}
+.background-attachment div{
+	background-image:url("image.png");
+	width:100%;
+	height:250px;
+}
+.scroll{
+	background-attachment:scroll;
+}
+.fixed{
+	background-attachment:fixed;
+}
+.local{
+	background-attachment:local;
+	overflow:scroll;
+}
+.background-position{
+	padding:20px;
+}
+.background-position div{
+	background-image:url("image.png");
+	width:100%;
+	height:400px;
+	background-repeat:no-repeat;
+}
+.top{
+	background-position:top 5% right 10%;
+}
+.left{
+	background-position:left 17% bottom 20%;
+}
+.center{
+	background-position:center;
+}
+.background-origin{
+	padding:20px;
+}
+.border-box{
+	border: 10px dashed black;
+	background-image:url("image.png");
+	padding:10px;
+	width:300px;
+	height:300px;
+	background-repeat: no-repeat;
+	/* background-color:blue; */
+	background-origin:border-box;
+}
+.padding-box{
+	border: 10px dashed black;
+	background-image:url("image.png");
+	padding:10px;
+	width:300px;
+	height:300px;
+	background-repeat: no-repeat;
+	/* background-color:blue; */
+	background-origin:padding-box;
+}
+.content-box{
+	border: 10px dashed black;
+	background-image:url("image.png");
+	padding:10px;
+	width:300px;
+	height:300px;
+	background-repeat: no-repeat;
+	/* background-color:blue; */
+	background-origin:content-box;
+}
+.background-size div{
+	background-image:url("image.png");
+	background-repeat:no-repeat;
+}
+.contain{
+	background-size:contain;
+}
+.cover{
+	background-size:cover;
+}
+.percentage{
+	background-size:50%;
+}
+
+	
+	
+	
+	
